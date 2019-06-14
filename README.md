@@ -1,6 +1,7 @@
 # Predicting-Kona-Ironman-Finish-Times
 Exploring the effects of weather at the Ironman World Championship in Kona
 
+![alt text](https://github.com/AdamLiscia/Predicting-Kona-Ironman-Finish-Times/blob/master/Daniela%20Ryf.png)
 
 The Ironman is a triathlon consisting of a 2.4 mile swim, 112 mile bike, and 26.2 mile swim. Pro males tend to have finishing times just over 8 hours, and females tend to complete the course in around 9 hours. In 2017 Patrick Lange set a course record with a a time of 8:01:40 and Daniela Ryf won with a time of 8:50:47.
 
