@@ -39,3 +39,11 @@ Some issues we ran into:
 After prepping our data and adding raising the degree of our data, we were left with 350 different features.  With definitely had to do some feature selection to trip down the highly correlated features and remove noise.  We used the StandardScalar to preprocess, then applied a VarienceThreshhold to drop features.  After looing at the correlation matrix, were able to drop a few more highly correlated features, resulting in 17 final fetures to run a model with.  Here is the final correlation matrix:
 
 ![alt text](https://github.com/AdamLiscia/Predicting-Kona-Ironman-Finish-Times/blob/master/Correlation%20Matrix.png)
+
+# Modeling
+We then applied an OLS Regression model and achieved an R-Squared value of 0.463 - meaning that our model was able to explain 46.3 percent of the variability in the data.  Ultimately, we need more data.
+
+![alt text](https://github.com/AdamLiscia/Predicting-Kona-Ironman-Finish-Times/blob/master/Results.png)
+
+# Z-Scores
+However, we were still able to caluculate the Z-Scores of the average finishing times for that year, and found that it was in fact an outlier for performance. 
