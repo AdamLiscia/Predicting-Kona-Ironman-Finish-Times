@@ -47,3 +47,11 @@ We then applied an OLS Regression model and achieved an R-Squared value of 0.463
 
 # Z-Scores
 However, we were still able to caluculate the Z-Scores of the average finishing times for that year, and found that it was in fact an outlier for performance. 
+
+# Next Steps
+Gather more data.  Some ideas for new features are: how many times they've previously raced in Kona, including wheather or not a certain time was a below a certain certain threshhold (i.e. Did an athlete push a hard pace on the bike, maybe broke the bike record, and caused a chase from the other athletes?)
+Also, run more models...always run more models.
+
+Thanks for reading!
+
+Project Partner https://github.com/samiramunir
