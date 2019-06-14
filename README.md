@@ -20,6 +20,11 @@ We wanted to look into the data to try to explain this. Questions we wanted to a
 # Gathering Data
 As with all projects, we needed data. Fortunately, Ironman provides all the results for on thier website for us to scrape. We also gathered all of our weather information from timeanddate.com.
 
+# Data Exploration
+Here is a graph showing the distrubution of times for the pro male athletes.  As we can see, they are normally distributed.
+
+![alt text](https://github.com/AdamLiscia/Predicting-Kona-Ironman-Finish-Times/blob/master/Pro%20Times.png)
+
 # Data Cleaning and Engineering
 The first 2 days of our project were spent on cleaning our data and figuring out what how we wanted to represent our data.
 
@@ -29,3 +34,8 @@ Some issues we ran into:
 -  We had only 11 weather observations. This seemed low, but after speaking to our classmates we found that we can add these observed weather patterns to each result.
 -  We first wanted to assess the finish times of all the athletes, but the data becomes skewed and the 17 hour cut off time starts to effect our data. That when we decided to limit our filed to just the pros who have a more normally distributed set of times.
 -  We first wanted to try using each athlete's country as a feature, but then decided that continent was a much more meaningful feature to use instead.
+
+# Feature Selection 
+After prepping our data and adding raising the degree of our data, we were left with 350 different features.  With definitely had to do some feature selection to trip down the highly correlated features and remove noise.  We used the StandardScalar to preprocess, then applied a VarienceThreshhold to drop features.  After looing at the correlation matrix, were able to drop a few more highly correlated features, resulting in 17 final fetures to run a model with.  Here is the final correlation matrix:
+
+![alt text](https://github.com/AdamLiscia/Predicting-Kona-Ironman-Finish-Times/blob/master/Correlation%20Matrix.png)
